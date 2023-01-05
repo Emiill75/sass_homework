@@ -10,3 +10,11 @@ body
     font-family: $base-font;
     font-weight: $font-weight-light;
 }
+
+h2
+{
+	font-family: $accent-font;
+	font-size: 3rem;
+	line-height: 4.5rem;
+	letter-spacing: 0.5rem;
+}
