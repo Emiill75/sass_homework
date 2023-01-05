@@ -1,3 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext');
 
+@font-face
+{
+	font-family: 'Bodoni';
+	src: url('subset-Bodoni-Book.woff2') format('woff2'),
+	     url('subset-Bodoni-Book.woff') format('woff'),
+	     url('subset-Bodoni-Book.ttf') format('truetype'),
+	     url('subset-Bodoni-Book.svg#Bodoni-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 $lato: 'Lato', sans-serif;
+$bodoni: 'Bodoni', serif;
