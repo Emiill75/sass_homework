@@ -7206,8 +7206,11 @@ header .navbar-nav a {
     line-height: 8.4rem;
     letter-spacing: 2rem;
     text-align: center;
+    font-family: "Bodoni", serif;
+    color: #FFFFFF; }
+  .lead-section .btn-outline-secondary {
     color: #FFFFFF;
-    font-family: "Bodoni", serif; }
+    border: 1px solid #FFFFFF; }
 
 @media (min-width: 768px) {
   .lead-section {
@@ -7242,10 +7245,11 @@ header .navbar-nav a {
       letter-spacing: 0.1rem;
       font-style: italic;
       margin-bottom: 1.7rem; }
-    .trends-section .trends-item-caption h6 {
+    .trends-section .trends-item-caption a {
       font-size: 1.6rem;
       line-height: 2.4rem;
-      font-weight: 400; }
+      font-weight: 400;
+      color: #1E1E1E; }
 
 .service-section {
   padding-top: 5.6rem; }

@@ -2,15 +2,21 @@
 {
     background-repeat: no-repeat;
     background-size: 100% auto;
-
+    
     .lead-section-title
     {
         font-size: 6rem;
         line-height: 8.4rem;
         letter-spacing: 2rem;
         text-align: center;
-        color: #FFFFFF;
 	font-family: $accent-font;
+    	color: #FFFFFF;
+    }
+
+    .btn-outline-secondary
+    {
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
     }
 }
 
