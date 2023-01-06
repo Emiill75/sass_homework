@@ -1432,7 +1432,7 @@ pre {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(208, 182, 182, 0.25); }
   .form-control::placeholder {
-    color: #6c757d;
+    color: rgba(30, 30, 30, 0.8);
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
@@ -7465,3 +7465,8 @@ footer {
   margin-bottom: 4.6rem; }
   .info-section a {
     color: #1E1E1E; }
+
+input::placeholder {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.23px; }
