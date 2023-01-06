@@ -7194,6 +7194,9 @@ header .navbar-nav a {
   padding: 10px;
   text-align: center; }
 
+header .navbar-nav .active {
+  border-bottom: 1px solid #D0B6B6; }
+
 @media (min-width: 768px) {
   header .navbar-nav li {
     margin-left: 30px; }
@@ -7273,6 +7276,52 @@ header .navbar-nav a {
 @media (min-width: 576px) {
   .trends-section {
     padding-top: 75px; } }
+
+.blog-post {
+  padding-top: 10rem;
+  margin-bottom: 9.7rem; }
+
+@media (min-width: 768px) {
+  .blog-post {
+    padding-top: 16.5rem; } }
+
+.blog-head .subtext {
+  font-family: "Bodoni", serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px; }
+
+.blog-head h5 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  font-weight: 400;
+  margin-bottom: 2.6rem;
+  text-transform: uppercase;
+  max-width: 90%; }
+
+.blog-head p {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 2rem; }
+
+.blog-content p {
+  font-size: 1.8rem;
+  line-height: 2.6rem; }
+
+.blog-content img {
+  margin-top: 5.2rem;
+  margin-bottom: 5.2rem; }
+
+.tags {
+  margin-top: 4.1rem;
+  font-family: "Bodoni", serif;
+  font-style: italic;
+  font-size: 1.6rem;
+  line-height: 2.7rem; }
+
+.tag-item {
+  background-color: #F5F5F5;
+  font-style: normal; }
 
 .service-section {
   padding-top: 5.6rem; }
