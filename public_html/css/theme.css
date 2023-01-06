@@ -7249,7 +7249,8 @@ header .navbar-nav a {
   position: relative;
   margin: -8rem 2.5rem 0 2.9rem;
   padding: 2.2rem 1.8rem 5.7rem 1.9rem;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  overflow: hidden; }
   .trends-section .trends-item-caption p {
     font-family: "Bodoni", serif;
     font-size: 1.4rem;
@@ -7261,7 +7262,8 @@ header .navbar-nav a {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 400;
-    color: #1E1E1E; }
+    color: #1E1E1E;
+    text-transform: uppercase; }
 
 .pagination .page-item {
   font-family: "Bodoni", serif;
