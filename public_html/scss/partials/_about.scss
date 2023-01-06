@@ -1,0 +1,49 @@
+.about-section
+{
+	padding-top: 9.1rem;
+
+	.about-content
+	{
+		h5
+		{
+			font-size: 4.4rem;
+			line-height: 5rem;
+			margin-bottom: 4rem;
+			text-transform: uppercase;
+		}
+
+		p
+		{
+			font-size: 2rem;
+			line-height: 2.8rem;
+		}
+
+		img
+		{
+			margin-top: 2.9rem;
+			margin-bottom: 6.6rem;
+		}
+	}
+
+	.trends-section
+	{
+		.input-group
+		{
+			margin-bottom: 3.9rem;
+			border: 1px solid $secondary;
+
+			.input-group-append
+			{
+				img
+				{
+					height: 25px;
+				}
+			}
+		}
+
+		.form-control
+		{
+			border: 0;
+		}
+	}
+}

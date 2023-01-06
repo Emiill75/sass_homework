@@ -7411,3 +7411,24 @@ footer {
     letter-spacing: -0.17px;
     margin-bottom: 2.5rem;
     font-weight: 400; }
+
+.about-section {
+  padding-top: 9.1rem; }
+  .about-section .about-content h5 {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase; }
+  .about-section .about-content p {
+    font-size: 2rem;
+    line-height: 2.8rem; }
+  .about-section .about-content img {
+    margin-top: 2.9rem;
+    margin-bottom: 6.6rem; }
+  .about-section .trends-section .input-group {
+    margin-bottom: 3.9rem;
+    border: 1px solid #1E1E1E; }
+    .about-section .trends-section .input-group .input-group-append img {
+      height: 25px; }
+  .about-section .trends-section .form-control {
+    border: 0; }
