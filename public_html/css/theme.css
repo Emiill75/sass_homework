@@ -7432,3 +7432,36 @@ footer {
       height: 25px; }
   .about-section .trends-section .form-control {
     border: 0; }
+
+.form-section {
+  padding-top: 10.2rem; }
+  .form-section h2 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
+  .form-section img {
+    max-width: 100%;
+    margin-bottom: 11rem; }
+
+@media (min-width: 1200px) {
+  .form-section img {
+    max-width: 700px; } }
+
+.form-group {
+  margin-bottom: 1.9rem; }
+  .form-group .form-control {
+    border: 0;
+    background-color: rgba(37, 71, 97, 0.02);
+    padding: 1.2rem 0 1.1rem 1.9rem; }
+
+.info-section {
+  background-color: #ECD9D9;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding-top: 6.3rem;
+  padding-bottom: 6rem;
+  margin-bottom: 4.6rem; }
+  .info-section a {
+    color: #1E1E1E; }
