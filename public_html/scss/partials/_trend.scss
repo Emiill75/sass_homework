@@ -1,6 +1,5 @@
 .trends-section
 {
-	padding-top: 75px;
 
 	h2
 	{
@@ -39,4 +38,10 @@
 	}
 }
 
-
+@media(min-width:576px)
+{
+	.trends-section
+	{
+		padding-top: 75px;
+	}
+}

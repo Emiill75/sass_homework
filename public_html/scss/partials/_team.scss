@@ -1,6 +1,6 @@
 .team-section
 {
-	padding-top: 11.1rem;
+	padding-top: 3rem;
 	margin-bottom: 6.7rem;
 
 	h2
@@ -41,5 +41,13 @@
 		}
 
 		margin-top: -7.5rem;
+	}
+}
+
+@media(min-width:576px)
+{
+	.team-section
+	{
+		padding-top: 11.1rem;
 	}
 }

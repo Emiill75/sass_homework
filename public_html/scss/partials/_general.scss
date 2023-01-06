@@ -13,15 +13,24 @@ body
 
 h2
 {
+	text-align: center;
 	font-family: $accent-font;
-	font-size: 3rem;
-	line-height: 4.5rem;
 	letter-spacing: 0.5rem;
-
 }
 
-.accent-border
+
+@media(min-width:992px)
 {
-	padding-bottom: 3rem;
-	border-bottom: 1px solid $primary;
+	h2
+	{
+		text-align: left;
+		font-size: 3rem;
+		line-height: 4.5rem;
+	}
+	
+	.accent-border
+	{
+		padding-bottom: 3rem;
+		border-bottom: 1px solid $primary;
+	}
 }
